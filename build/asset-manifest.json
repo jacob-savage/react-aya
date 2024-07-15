@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfe5e652.css",
-    "main.js": "/static/js/main.16d4cfe5.js",
-    "index.html": "/index.html",
-    "main.bfe5e652.css.map": "/static/css/main.bfe5e652.css.map",
-    "main.16d4cfe5.js.map": "/static/js/main.16d4cfe5.js.map"
+    "main.css": "/react-aya/static/css/main.bfe5e652.css",
+    "main.js": "/react-aya/static/js/main.16d4cfe5.js",
+    "index.html": "/react-aya/index.html",
+    "main.bfe5e652.css.map": "/react-aya/static/css/main.bfe5e652.css.map",
+    "main.16d4cfe5.js.map": "/react-aya/static/js/main.16d4cfe5.js.map"
   },
   "entrypoints": [
     "static/css/main.bfe5e652.css",
