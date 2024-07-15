@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-aya/static/css/main.bfe5e652.css",
-    "main.js": "/react-aya/static/js/main.16d4cfe5.js",
+    "main.js": "/react-aya/static/js/main.539485d0.js",
     "index.html": "/react-aya/index.html",
     "main.bfe5e652.css.map": "/react-aya/static/css/main.bfe5e652.css.map",
-    "main.16d4cfe5.js.map": "/react-aya/static/js/main.16d4cfe5.js.map"
+    "main.539485d0.js.map": "/react-aya/static/js/main.539485d0.js.map"
   },
   "entrypoints": [
     "static/css/main.bfe5e652.css",
-    "static/js/main.16d4cfe5.js"
+    "static/js/main.539485d0.js"
   ]
 }
