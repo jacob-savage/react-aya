@@ -1,0 +1,77 @@
+.heading {
+  text-align: center;
+  justify-content: center;
+}
+
+/* Ensure the body and html take full height */
+body, html {
+  height: 10%;
+  margin: 0;
+}
+
+.letter_grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items near the top */
+  height: auto; /* Adjust height to content */
+  padding-top: 1px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Add margin to avoid overlapping with the next container */
+}
+
+.wordle {
+  display: grid;
+  grid-template-columns: repeat(5, 50px); /* Ensure each column is 50px wide */
+  gap: 10px;
+  margin-top: 20px; /* Add margin to avoid overlapping */
+}
+
+.keyboard_container {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 20px; /* Add margin to separate from the previous container */
+}
+
+.my-button {
+  width: 50px;  /* Fixed width */
+  height: 50px;  /* Fixed height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+  
+/* button colour */
+
+/* yellow if correct and wrong spot
+dark grey if incorrect
+green if correct and correct spot */
+
+.simple-keyboard.hg-layout-default .hg-button.hg-green {
+  background: green;
+  color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-orange {
+  background:orange;
+  color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-darkgrey {
+  background: darkgray;
+  color: white;
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-grey {
+  background: gray;
+  color: white;
+}
+
+
+body {
+  background-color: hsla(0, 0%, 94%, 0); /* Set a background color */
+}
