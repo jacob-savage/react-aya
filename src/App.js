@@ -41,7 +41,6 @@ function App() {
         />
       </div>
       <div>
-        {" "}
         <KeyboardHuman
           inputValue={inputValue}
           setInputValue={setInputValue}
@@ -51,7 +50,7 @@ function App() {
           minLength={minLength}
         />
       </div>
-      <div>{testingWord}</div>
+      <div style={{color :'white'}}>{testingWord}</div>
     </>
   );
 }

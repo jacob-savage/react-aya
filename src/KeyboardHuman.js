@@ -20,7 +20,6 @@ const KeyboardHuman = ({
       }
       // backspace
 
-      console.log(event.key)
       if (
         inputValue.length <= maxLength &&
         inputValue.length > minLength &&
@@ -50,12 +49,12 @@ const KeyboardHuman = ({
   }, [setInputValue, counter, inputValue]);
 
   return (
-    <div>
+    <div style={{ display: "none", color: 'white' }}>
       <input
         type="text"
         value={inputValue}
         readOnly
-        style={{ display: "none" }}
+        style={{ display: "none", color: 'white' }}
       />
       <div className="display">{inputValue}</div>
     </div>
